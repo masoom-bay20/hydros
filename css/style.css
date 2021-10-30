@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Trirong:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trirong", serif;
+  /* background: #ebebe8; */
+}
+
+/* Navagation section  */
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  font-family: "Poppins";
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 0px 10px;
+  font-family: "Poppins";
+}
+.selector {
+  display: flex;
+  justify-content: space-between;
+  width: 17%;
+  border-bottom: 2px solid;
+  height: fit-content;
+}
+
+select {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+/* Banner section  */
+/* .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+
+.banner {
+  background: linear-gradient(rgba(236, 237, 238, 0.69) 0%, #e9eae4 100%);
+  padding-top: 25px;
+}
+
+.msg h1 {
+  padding-top: 200px;
+  padding-left: 250px;
+}
+
+.bgimg-1 {
+  background: url(../img/bgimg-1.png) no-repeat;
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+}
+
+/* Boxes section  */
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: -100px;
+  margin-bottom: 150px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  width: 245px;
+  height: 358px;
+  border-radius: 20px;
+}
+.box1 {
+  border-radius: 20px;
+  background: linear-gradient(#0894b8 0%, #77cbec 100%);
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.16);
+  color: white;
+}
+
+.box2 {
+  border-radius: 20px;
+  background: linear-gradient(#45287e 0%, #dd266d 100%);
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.box3 {
+  border-radius: 20px;
+  background: linear-gradient(#e52c69 0%, #ef7e4b 100%);
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.box4 {
+  border-radius: 20px;
+  background: linear-gradient(#f08f44 0%, #f8c023 100%);
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+.box5 {
+  border-radius: 20px;
+  background: linear-gradient(#e9cd9f 0%, #ae825a 100%);
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.learn {
+  text-decoration: none;
+  color: white;
+  font-family: "Gilroy";
+}
+
+.text-header {
+  margin-left: 15px;
+  font-family: "Trirong";
+}
+/* text inside the box  */
+.doct-1 {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  line-height: 15px;
+  color: #fff;
+  padding-top: 160px;
+  padding-left: 20px;
+}
+
+.doct-2 {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  line-height: 15px;
+  color: #fff;
+  padding-top: 35px;
+  padding-left: 20px;
+}
+
+.doct-3 {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  line-height: 15px;
+  color: #fff;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+.doct-4 {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  line-height: 15px;
+  color: #fff;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+.doct-5 {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  line-height: 15px;
+  color: #fff;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+/* Text Are section  */
+.text-area {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.text-nutrition-2 {
+  width: 100%;
+}
+.text-nutrition-1 .para-1 {
+  font-family: Trirong;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: left;
+  color: #000;
+  width: 70%;
+}
+
+.text-nutrition-2 .para-2,
+.para-3 {
+  font-family: Trirong;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: left;
+  color: #000;
+}
+
+/* Square Boxes section  */
+
+/* Background img 2  */
+.bgimg-2 {
+  background: url(../img/bgimg-2.png) no-repeat;
+  width: 100%;
+  padding: 200px 0 100px 0;
+  background-position: center;
+}
+
+/* For Covid-19  */
+.Covid-19 {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  width: 895px;
+  height: 140px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.16);
+}
+
+.Covid-19-msg {
+  width: 30%;
+  border-radius: 20px 0px 0px 20px;
+  background: #000;
+  color: white;
+  font-family: "Poppins";
+  font-weight: bold;
+  padding: 30px 0 0 45px;
+}
+.covid-para {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  width: 60%;
+  padding-left: 20px;
+  color: #000;
+}
+
+.covid-link .learn {
+  text-decoration: none;
+  color: black;
+  width: 10%;
+}
+
+/* Time-Crunch Section   */
+.Time-Crunch {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  width: 708px;
+  height: 140px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.16);
+}
+
+.Time-Crunch-msg {
+  width: 30%;
+  border-radius: 20px 0px 0px 20px;
+  color: white;
+  font-family: "Poppins";
+  background: linear-gradient(#45287e 0%, #dd266d 100%);
+  padding: 30px 0 0 45px;
+}
+
+.Time-Crunch-para {
+  font-family: "Poppins";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  width: 67%;
+  color: #000;
+}
+
+/* Insurance Section   */
+.Insurance {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  width: 708px;
+  height: 140px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.16);
+}
+
+.Insurance-msg {
+  width: 30%;
+  width: 216px;
+  height: 140px;
+  font-family: "Poppins";
+  font-weight: normal;
+  border-radius: 20px 0px 0px 20px;
+  background: linear-gradient(#0b93b2 0%, #b6cf38 100%);
+  padding: 30px 0 0 45px;
+  color: white;
+}
+.Insurance-para {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  width: 67%;
+  color: #000;
+}
+
+/* Footer Section  */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+  padding-top: 25px;
+  font-family: "Poppins";
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  line-height: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: "Poppins";
+  line-height: 25px;
+}
+
+footer span {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+footer h1 {
+  font-size: 20px;
+}
+footer p {
+  line-height: 25px;
+}
+
+footer .time ul li {
+  list-style-type: none;
+}
